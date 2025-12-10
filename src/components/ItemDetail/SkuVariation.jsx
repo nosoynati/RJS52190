@@ -16,7 +16,13 @@ const SkuVariation = ({ setVariant, options }) => {
 	return (
         <select onChange={handleSelect} className="inputSelect">
             {   
-                options.map(opt => <option value={opt.value} key={opt.label}>{opt.label}</option>)
+                options.map(opt => 
+                <option 
+                    value={opt.value} 
+                    key={opt.label}
+                    >
+                    {opt.label}
+                </option>)
             }
         </select>
     )

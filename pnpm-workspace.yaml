@@ -1,0 +1,7 @@
+ignoredBuiltDependencies:
+  - '@parcel/watcher'
+  - protobufjs
+
+onlyBuiltDependencies:
+  - '@firebase/util'
+  - esbuild

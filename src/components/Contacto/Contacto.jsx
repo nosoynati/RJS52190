@@ -12,7 +12,7 @@ const Contacto = () => {
 	
     const handleForm = (e) => {
 		// target.name selecciona los inputs según su prop 'name'
-        console.log(e.target.name)
+    console.log(e.target.name)
 
 		// el spread resplica los valores anteriores para conservar aquellos que no cambian
 		setValues({
