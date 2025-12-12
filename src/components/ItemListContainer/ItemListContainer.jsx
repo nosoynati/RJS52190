@@ -1,6 +1,6 @@
 import "./ItemListContainer.scss";
 import { useEffect, useState, useContext } from "react";
-import { pedirDatos } from "../../helpers/pedirDatos";
+// import { pedirDatos } from "../../helpers/pedirDatos";
 import ItemList from "../ItemList/ItemList";
 import { Navigate, useParams } from "react-router-dom";
 import { collection, getDocs, query, where } from "firebase/firestore";

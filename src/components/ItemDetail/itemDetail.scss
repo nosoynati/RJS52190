@@ -17,7 +17,7 @@
         }
         .image_product {
             object-fit: contain;
-            width: 25rem;
+            max-width: 25rem;
             max-width: 100%;
             overflow: hidden;
             opacity: 0.8;
